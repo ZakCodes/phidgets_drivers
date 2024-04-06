@@ -23,8 +23,8 @@ def generate_launch_description():
     """Generate launch description with multiple components."""
 
     params = {
-        # optional param use_orientation, default is false
-        'use_orientation': False,
+        # optional param use_orientation, default is false **Changed to true**
+        'use_orientation': True,
 
         # optional param spatial_algorithm, default is 'ahrs'
         'spatial_algorithm': 'ahrs',
